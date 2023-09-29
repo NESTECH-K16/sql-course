@@ -1,0 +1,29 @@
+{
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default",
+				"enableSsl": "Disabled"
+			},
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "Mysql-connection",
+			"database": "sql-course",
+			"username": "root",
+			"askForPassword": true
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"askForPassword": true,
+			"driver": "PostgreSQL",
+			"name": "PostgresSQL",
+			"database": "sql-course",
+			"username": "postgres"
+		}
+	]
+}
+
